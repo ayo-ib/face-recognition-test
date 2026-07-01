@@ -1,4 +1,4 @@
 .venv
-
-# yunet-sface
-yunet-sface/models
+__pycache__/
+gallery.json
+.pyc
