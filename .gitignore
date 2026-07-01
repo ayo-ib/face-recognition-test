@@ -2,3 +2,5 @@
 __pycache__/
 gallery.json
 .pyc
+# Model files are large and easy to redownload.
+*.onnx
