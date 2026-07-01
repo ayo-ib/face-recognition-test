@@ -25,3 +25,17 @@ curl.exe -L `
   -o .\models\face_recognition_sface_2021dec.onnx `
   https://github.com/opencv/opencv_zoo/raw/main/models/face_recognition_sface/face_recognition_sface_2021dec.onnx
 ```
+
+## Testing
+- To detect any face
+```bash
+python face_app.py --detect-only
+```
+- To enroll a person
+```bash
+python face_app.py --enroll <YOUR NAME>
+```
+- To detect an enrolled person
+```bash
+python face_app.py
+```
