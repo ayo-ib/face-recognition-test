@@ -17,9 +17,6 @@ pip install -r requirements.txt
 ### Yunet + SFace
 On the root directory of this project, run this commands
 ```bash
-cd yunet-sface
-mkdir models
-
 Invoke-WebRequest `
   -Uri "https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx" `
   -OutFile ".\models\face_detection_yunet_2023mar.onnx"
